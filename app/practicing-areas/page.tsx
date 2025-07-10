@@ -68,34 +68,7 @@ export default function PracticingAreas() {
       ],
       color: 'bg-pink-100 text-pink-800'
     },
-    {
-      icon: Lightbulb,
-      title: 'Intellectual Property',
-      description: 'Protection of patents, trademarks, copyrights, and trade secrets for individuals and businesses.',
-      services: [
-        'Patent Filing',
-        'Trademark Registration',
-        'Copyright Protection',
-        'Trade Secret Protection',
-        'IP Litigation',
-        'Licensing Agreements'
-      ],
-      color: 'bg-yellow-100 text-yellow-800'
-    },
-    {
-      icon: Monitor,
-      title: 'Cyber Law',
-      description: 'Specialized legal services for cyber crimes, data protection, privacy issues, and digital rights.',
-      services: [
-        'Cybercrime Defense',
-        'Data Protection',
-        'Privacy Law',
-        'Digital Rights',
-        'Online Harassment',
-        'E-commerce Law'
-      ],
-      color: 'bg-purple-100 text-purple-800'
-    }
+    
   ];
 
   return (

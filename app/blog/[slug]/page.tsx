@@ -338,6 +338,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     keywords: post.tags.join(', '),
   };
 }
+export async function generateStaticParams() {
+  return Object.keys(blogPosts).map((slug) => ({ slug }));
+}
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
   const post = blogPosts[params.slug];

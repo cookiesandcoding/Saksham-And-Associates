@@ -141,13 +141,14 @@ export default function JoinUs() {
           <form onSubmit={handleSubmit(onSubmit)} className="bg-white rounded-lg shadow-lg p-8">
             {/* Personal Information */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-blue-900 mb-6">Personal Information</h3>
+             {/* <h3 className="text-xl font-semibold text-blue-900 mb-6">Personal Information</h3>*/}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
                     First Name *
                   </label>
                   <input
+                  
                     type="text"
                     id="firstName"
                     {...register('firstName', { required: 'First name is required' })}

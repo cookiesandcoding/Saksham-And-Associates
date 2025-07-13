@@ -5,7 +5,7 @@ import { Mail, Phone, Linkedin } from 'lucide-react';
 const TeamPreview = () => {
   const teamMembers = [
     {
-      name: 'Adv. Saksham Sharma',
+      name: 'Saksham ',
       position: 'Senior Partner',
       specialization: 'Civil & Criminal Law',
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -13,21 +13,14 @@ const TeamPreview = () => {
       phone: '+91 98765 43210'
     },
     {
-      name: 'Adv. Priya Verma',
+      name: 'Vidhi jain ',
       position: 'Partner',
       specialization: 'Corporate & Family Law',
       image: 'https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg?auto=compress&cs=tinysrgb&w=400',
       email: 'priya@sakshamassociates.com',
       phone: '+91 98765 43211'
     },
-    {
-      name: 'Adv. Rajesh Kumar',
-      position: 'Associate',
-      specialization: 'IPR & Cyber Law',
-      image: 'https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=400',
-      email: 'rajesh@sakshamassociates.com',
-      phone: '+91 98765 43212'
-    }
+    
   ];
 
   return (
